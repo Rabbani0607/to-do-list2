@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="todocss.css">
+</head>
+<body>
+  <div id="body"> 
+    <header style="background-color:rgba(0, 0, 0, 0.7); width:100%; height:100px;">
+        <div id="logo">
+            <a style="color: white;text-decoration: none;" id="tick" href="todo.html">Organize</a>
+          </div>
+          <div id="toogle" onclick="ColorC()">           
+                <label class="switch">
+                <input type="checkbox">
+                <span onclick="change()" class="slider round"></span>
+                </label>
+          </div>
+    </header>   
+    <div id="container">
+        <div id="logo1">
+            TO DO LIST
+        </div>
+        <div id="newtask">
+            <button onclick="btn1()">Add a task</button>
+        </div>
+         <div style="display:none;"  id="tasks">
+            <div id="taskcontent">
+                <span onclick="btn2()"; id="close">&times;</span>
+                <input id="inp" type="text" placeholder="Task name">
+                <textarea id="taskDescriptionInput" placeholder="Description"></textarea>
+                <input id="taskDateInput" style="display: block;" type="date">
+                <button onclick="btn3()" id="push">Add</button>
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="todojs.js">
+    </script>
+</body>
+</html>

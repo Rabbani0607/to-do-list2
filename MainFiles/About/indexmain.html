@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexmaincss.css">
+
+    <style>
+      #pricing{
+        max-width:100%;
+        height:100vh;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns:auto auto auto ;
+        text-align:center;
+        align-content: center;
+        gap:10px;
+        background-color:rgb(128, 128, 128,0.4);
+      }
+      #pricing > div{
+        background-color:rgba(255, 255, 255, 0.493);
+        border:1px solid black;
+        border-radius:10px;
+        height:50vh;
+        margin:5px;
+      }
+      #pricing > div >h1{
+        padding-top:50px;
+      }
+      #pricing > div >p{
+        padding-top:5px;
+      }
+      #pricing > div >li{
+        text-align: justify;
+        padding-left:100px;
+        padding-top:10px;
+      }
+      #pricing > div >a>button {
+        height:50px;
+        width:100px;
+        margin-top:40px;
+        background-color:#f86515;
+        color:white;
+        border:0;
+        border-radius:5px;
+      }
+      #pricing > div >button {
+        height:50px;
+        width:100px;
+        margin-top:40px;
+        background-color:#f86515;
+        color:white;
+        border:0;
+        border-radius:5px;
+      }
+    </style>
+</head>
+<body>
+    <div id="body">
+    <header style="background-color:rgb(0, 0, 0,0.7); width:100%; height:100px;">
+         <div id="logo">
+            <a style="color: white; text-decoration: none;" href="#">Organize</a>
+          </div>
+          <div id="innerfeature">
+            <a style="color:#ffffff;text-decoration: none;" href="#features">Feature</a>
+            <a style="color:#ffffff;text-decoration: none;" href="#pricing">Pricing</a>
+            <a style="color:#ffffff;text-decoration: none;" href="index.html">Login</a>
+            <button id="startfree">
+                <a style="color:#ffffff;text-decoration: none;" href="#pricing">Start Free</a>
+            </button>
+          </div>
+    </header>  
+   </div>
+   <div id="features">
+      <div id="video">
+       <video width="500" loop autoplay>
+        <source src="../Images/Todo.mp4" type="video/mp4">
+       </video>
+      </div>
+      <div id="matter">
+          <h3>Features of Organize</h3>
+          <br>
+           <div id="innerm">
+            <h4>Task Creation:</h4>
+              <ul>
+               <li>Users can easily add new tasks with titles and descriptions.</li>
+               <li>Ability to set due dates and times for tasks.</li>
+             </ul>
+             <h4>Task Organization:</h4>
+              <ul>
+               <li>Categorization of tasks into different lists or projects for better organization.</li>
+               <li>Tags or labels to further classify tasks.</li>
+             </ul>
+             <h4>Notes and Attachments:</h4>
+              <ul>
+              <li>Space to add additional notes or detailed descriptions to tasks.</li>
+              <li>Attachment support for relevant files or documents.</li>
+             </ul>
+             <h4>Security:</h4>
+             <ul>
+             <li>Secure login and authentication processes.</li>
+             <li>Encryption for protecting sensitive task information.</li>
+            </ul>
+            <h4>Completion Tracking:</h4>
+            <ul>
+            <li>Mark tasks as completed.</li>
+            <li>View completed tasks for reference or analysis.</li>
+           </ul>
+            <h4>Offline Access:</h4>
+            <ul>
+            <li>Ability to access and modify tasks without an internet connection.</li>
+            <li>Syncing capabilities when the device reconnects to the internet.</li>
+           </ul>
+           <h4>User-Friendly Interface:</h4>
+            <ul>
+            <li>Intuitive and easy-to-use design.</li>
+            <li>Quick access to essential features.</li>
+           </ul>
+          </div>
+      </div>
+   </div>
+   <div id="pricing">
+        <div>
+           <h1>Free</h2>
+           <p>per 7 day</p>
+            <li>3 tasks per day</li>
+            <li>21 tasks per 7 days</li>
+            <li>Task disappeared in 24hrs</li>
+            <a href="indexsign.html"><button>Start Free</button></a>
+        </div>
+
+        <div>
+          <h1>Rs. 29/-</h1>
+          <p>per month</p>
+            <li>5 tasks per day</li>
+            <li>Task disappeared when completed</li>
+            <li>Only on Mobile</li>
+            <button>Buy now</button>
+       </div>
+
+       <div>
+        <h1>Rs. 100/-</h1>
+        <p>per month</p>
+          <li>Unlmited tasks per day</li>
+          <li>Task disappeared when completed</li>
+          <li>Available on all devices</li>
+          <button>Buy now</button>
+      </div>
+   </div>
+</body>
+</html>
