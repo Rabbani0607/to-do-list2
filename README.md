@@ -14,7 +14,7 @@ and the four folders are
    step 3 : If we want to clear the task, then there will be "Dustbin" symboled button by hovering on it highlights as well by clicking it clears the task.
 
 JavaScript :
-    Here I used Browser Object Model(BOM) and by clicking on the buttons they create divs (division tags) and forms and also functions like removing child elements and parent elements.
+    Here I used Browser Object Model(BOM) and well as Document Object Model(DOM) by clicking on the buttons they create divs (division tags) and forms and also functions like removing child elements and parent elements.
    
 4) Sign-inFiles : In this Folder there are totally 5 files they are index.html,index.css,index.js for Login pages and indexsign.html,indexsi.js for Sign-in pages
 
